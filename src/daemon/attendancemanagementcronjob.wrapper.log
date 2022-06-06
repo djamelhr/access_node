@@ -1,0 +1,48 @@
+2022-06-05 12:38:31 - Starting C:\Program Files\nodejs\node.exe  --harmony E:\access_node\node_modules\node-windows\lib\wrapper.js --file E:\access_node\src\index.js --scriptoptions= --log "Attendance-management.cron-job wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-05 12:38:31 - Started 5700
+2022-06-05 12:40:25 - Stopping attendancemanagementcronjob.exe
+2022-06-05 12:40:25 - ProcessKill 5700
+2022-06-05 12:40:26 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-05 12:41:23 - Starting C:\Program Files\nodejs\node.exe  --harmony E:\access_node\node_modules\node-windows\lib\wrapper.js --file E:\access_node\src\index.js --scriptoptions= --log "Attendance-management.cron-job wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-05 12:41:27 - Started 6188
+2022-06-05 12:44:13 - Stopping attendancemanagementcronjob.exe
+2022-06-05 12:44:13 - ProcessKill 6188
+2022-06-05 12:44:14 - Found child process: 6268 Name: conhost.exe
+2022-06-05 12:44:14 - Found child process: 3044 Name: node.exe
+2022-06-05 12:44:14 - Stopping process 6268
+2022-06-05 12:44:14 - Send SIGINT 6268
+2022-06-05 12:44:14 - SIGINT to 6268 failed - Killing as fallback
+2022-06-05 12:44:14 - Stopping process 3044
+2022-06-05 12:44:14 - Send SIGINT 3044
+2022-06-05 12:44:14 - SIGINT to 3044 failed - Killing as fallback
+2022-06-05 12:44:14 - Stopping process 6188
+2022-06-05 12:44:14 - Send SIGINT 6188
+2022-06-05 12:44:14 - SIGINT to 6188 failed - Killing as fallback
+2022-06-05 12:44:14 - Finished attendancemanagementcronjob.exe
+2022-06-05 20:10:15 - Starting C:\Program Files\nodejs\node.exe  --harmony E:\access_node\node_modules\node-windows\lib\wrapper.js --file E:\access_node\src\index.js --scriptoptions= --log "Attendance-management.cron-job wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-05 20:10:16 - Started 10684
+2022-06-05 20:50:21 - Stopping attendancemanagementcronjob.exe
+2022-06-05 20:50:22 - ProcessKill 10684
+2022-06-05 20:50:22 - Found child process: 8948 Name: conhost.exe
+2022-06-05 20:50:22 - Found child process: 5224 Name: node.exe
+2022-06-05 20:50:22 - Stopping process 8948
+2022-06-05 20:50:22 - Send SIGINT 8948
+2022-06-05 20:50:22 - SIGINT to 8948 failed - Killing as fallback
+2022-06-05 20:50:22 - Stopping process 5224
+2022-06-05 20:50:22 - Send SIGINT 5224
+2022-06-05 20:50:22 - SIGINT to 5224 failed - Killing as fallback
+2022-06-05 20:50:22 - Stopping process 10684
+2022-06-05 20:50:22 - Send SIGINT 10684
+2022-06-05 20:50:22 - SIGINT to 10684 failed - Killing as fallback
+2022-06-05 20:50:22 - Finished attendancemanagementcronjob.exe
