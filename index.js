@@ -23,7 +23,7 @@ admin.initializeApp({
 export const db = admin.firestore();
 
 const hostname = os.hostname();
-
+//nexe index.js -o test -t windows --build --verbose
 // import fs from "fs";
 // const data = JSON.parse(fs.readFileSync("./data.json"));
 // console.log(data);
